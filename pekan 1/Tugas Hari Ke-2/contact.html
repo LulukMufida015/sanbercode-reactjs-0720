@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-image: url("public/img/pattern.jpg");
+            background-color: #eaeaea;
+            color: #333;
+        }
+
+        .container {
+            width: 960px;
+            margin: 80px auto;
+            background-color: white;
+            position: relative;
+            padding: 20px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .gender {
+            padding-left: 10%;
+        }
+
+        label {
+            padding-right: 100px;
+            font-weight: bold;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hubungi Kami</h1>
+        <div><span>Kantor</span> : di jalan belum jadi</div>
+        <div><span>Nomor Telepon</span> : 08XXXXXXXXXX</div>
+        <div><span>Email</span> : email@contoh.com</div>
+        <h1>Kirimkan Pesan</h1>
+        <form>
+            <table>
+                <tr>
+                    <th><label for="nama">Nama</label></th>
+                    <td><input type="text" id="nama"></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email</label></th>
+                    <td> <input type="text" id="email"></td>
+                </tr>
+                <tr>
+                    <th><label>Jenis Kelamin</label></th>
+                    <td><input type="radio" name="gender" value="0" checked>Laki-laki <br>
+                        <input type="radio" name="gender" value="1">Perempuan</td>
+                </tr>
+                <tr>
+                    <th><label for="pesan">Pesan Anda</label></th>
+                    <td><textarea name="pesan" id="pesan" cols="30" rows="10"></textarea></td>
+                </tr><br>
+                <tr>
+                    <td><input type="submit" value="kirim"></td>
+                </tr>
+            </table>
+        </form>
+        <br>
+        <a href="index.html">Kembali Ke Index</a>
+    </div>
+</body>
+
+</html>
